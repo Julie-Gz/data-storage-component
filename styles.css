@@ -13,7 +13,7 @@
 body{
     height: 100vh;
     background-color: hsl(229, 57%, 11%);
-    background-image: url('images/bg-mobile.png');
+    background-image: url('https://julie-gz.github.io/hosted-images/bg-mobile.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -182,7 +182,7 @@ input[type="range"]::before, input[type="range"]::after{
 /*For 1440px wide screens*/
 @media screen and (min-width:1400px){  
     body{
-        background-image: url('images/bg-desktop.png');
+        background-image: url('https://julie-gz.github.io/hosted-images/bg-desktop.png');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: bottom left;
@@ -229,5 +229,7 @@ input[type="range"]::before, input[type="range"]::after{
         right: 0;
     }
 
-    
+    .attribution{
+        margin-left: 35vw;
+    }
 }
